@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        billAmountTextField.placeholder = "Bill Amount..."
+        billAmountTextField.backgroundColor = .secondarySystemBackground
     }
     @IBAction func calculateTip(_ sender: Any) {
         let tipPercenatge = [0.15,0.18,0.2]

@@ -2,9 +2,9 @@
 
 **Name of your app** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Omaru Jawara**
 
-Time spent: **X** hours spent in total
+Time spent: **15** hours spent in total
 
 ## User Stories
 
@@ -28,17 +28,19 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Simulator_Screen_Recording _iPhone_11 2021-08-08 at 01 18 56](https://user-images.githubusercontent.com/47614340/128647041-e169c938-6e09-4e78-a51e-809532e2c899.gif)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+GIF created with Xcode
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+A challenge I encountered was that when the value in the bill amount text field is changed, the tip and total amount didn't update unless I use the UIslider.
+That component is where I spent much time figuring out; eventually I figured it out.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [Omaru Jawara]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
